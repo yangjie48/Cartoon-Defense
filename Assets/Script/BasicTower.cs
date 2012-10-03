@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+/* Modified by Yizhi */
 public class BasicTower : MonoBehaviour {
 	
 	public GameObject bullet;
