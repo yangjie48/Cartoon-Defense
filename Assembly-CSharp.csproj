@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{D0E882C3-D862-1694-9775-BCE83D2FA5F5}</ProjectGuid>
+	<ProjectGuid>{BE13BC7B-3785-63EB-4DDC-A5EE8006509A}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,10 +46,15 @@
   <ItemGroup>
      <Compile Include="Assets\Script\BasicEnemy.cs" />
      <Compile Include="Assets\Script\BasicTower.cs" />
+     <Compile Include="Assets\Script\BonusManager.cs" />
      <Compile Include="Assets\Script\CreateTowerOnClicked.cs" />
      <Compile Include="Assets\Script\DetectClicksAndTouches.cs" />
      <Compile Include="Assets\Script\EnemySpawner.cs" />
-     <Compile Include="Assets\Script\PathThroughObejcets.cs" />
+     <Compile Include="Assets\Script\PathThroughObjcets.cs" />
+     <Compile Include="Assets\Script\RestoreSpeed.cs" />
+     <Compile Include="Assets\Script\SelectTowerOnClicked.cs" />
+     <Compile Include="Assets\Script\SlowBullet.cs" />
+     <Compile Include="Assets\Script\TowerSelector.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

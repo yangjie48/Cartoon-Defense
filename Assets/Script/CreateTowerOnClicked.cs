@@ -3,7 +3,8 @@ using System.Collections;
 
 public class CreateTowerOnClicked : MonoBehaviour 
 {
-	public GameObject tower;
+	//public GameObject tower;
+	public TowerSelector towerSelector;
 	// Use this for initialization
 	void Start () {
 	
@@ -16,6 +17,11 @@ public class CreateTowerOnClicked : MonoBehaviour
 	
 	void Clicked(Vector3 position)
 	{
-		Instantiate(tower, position + Vector3.up*0.5f, tower.transform.rotation);
+		if(BonusManager.bonus >= towerSelector.getSelectedTowerCost())
+		{
+			GameObject tower = towerSelector.GetSelectedTower();
+			Instantiate(tower, position + Vector3.up*0.5f, tower.transform.rotation);
+			BonusManager.bonus -= towerSelector.getSelectedTowerCost();
+		}
 	}
 }
