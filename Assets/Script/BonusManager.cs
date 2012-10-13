@@ -17,6 +17,6 @@ public class BonusManager: MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		bonusDisplay.GetComponent<TextMesh>().text = bonus.ToString();	
+		bonusDisplay.GetComponent<TextMesh>().text = "Bonus:"+bonus.ToString();	
 	}
 }

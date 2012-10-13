@@ -32,6 +32,7 @@ public class EnemySpawner : MonoBehaviour
 	{
 		//Spawn next enemy in spawnlist
 		GameObject reference = Instantiate(spawnList[spawnIndex++], transform.position, Quaternion.identity) as GameObject;
+		LevelManager.level = (spawnIndex / 5) + 1;
 		
 		//Set enemy path information
 		reference.SendMessage("SetPathPoints", pathPoints);

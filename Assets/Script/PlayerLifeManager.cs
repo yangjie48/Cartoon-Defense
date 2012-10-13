@@ -16,6 +16,10 @@ public class PlayerLifeManager : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		playerLifeDisplay.GetComponent<TextMesh>().text = playerLife.ToString();
+		playerLifeDisplay.GetComponent<TextMesh>().text = "Life:"+playerLife.ToString();
+		if(playerLife <= 0)
+		{
+			Application.LoadLevel("GameOver");
+		}
 	}
 }

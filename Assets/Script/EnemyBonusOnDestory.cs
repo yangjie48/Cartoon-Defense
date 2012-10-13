@@ -19,6 +19,9 @@ public class EnemyBonusOnDestory : MonoBehaviour
 	
 	void OnDestroy()
 	{
-		BonusManager.bonus += enemyBonus;
+		if(BasicEnemy.EnemyDestroyType == 1)//it is destroyed by bullet not run into base
+		{
+			BonusManager.bonus += enemyBonus;
+		}
 	}
 }

@@ -37,7 +37,9 @@ public class PathThroughObjcets : MonoBehaviour
 			if(currentPathIndex >= pathPoints.Length)
 			{
 				//The Enemy go to player's base
+				BasicEnemy.EnemyDestroyType = 0;
 				Destroy(gameObject);
+				PlayerLifeManager.playerLife--;
 			}
 			else
 			{
