@@ -49,8 +49,10 @@
      <Compile Include="Assets\Script\BonusManager.cs" />
      <Compile Include="Assets\Script\CreateTowerOnClicked.cs" />
      <Compile Include="Assets\Script\DetectClicksAndTouches.cs" />
+     <Compile Include="Assets\Script\EnemyBonusOnDestory.cs" />
      <Compile Include="Assets\Script\EnemySpawner.cs" />
      <Compile Include="Assets\Script\PathThroughObjcets.cs" />
+     <Compile Include="Assets\Script\PlayerLifeManager.cs" />
      <Compile Include="Assets\Script\RestoreSpeed.cs" />
      <Compile Include="Assets\Script\SelectTowerOnClicked.cs" />
      <Compile Include="Assets\Script\SlowBullet.cs" />

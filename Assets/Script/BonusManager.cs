@@ -3,10 +3,10 @@ using System.Collections;
 
 public class BonusManager: MonoBehaviour 
 {
-	public float initialBonus = 50;
+	public int initialBonus = 50;
 	public GameObject bonusDisplay;
 	
-	public static float bonus;
+	public static int bonus;
 
 	// Use this for initialization
 	void Start () 

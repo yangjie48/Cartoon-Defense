@@ -28,6 +28,7 @@ public class TowerSelector : MonoBehaviour
 		return towers[selectedTower];
 	}
 	
+	
 	public int getSelectedTowerCost()
 	{
 		return towerCost[selectedTower];
