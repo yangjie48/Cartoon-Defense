@@ -50,6 +50,7 @@
      <Compile Include="Assets\Script\CreateTowerOnClicked.cs" />
      <Compile Include="Assets\Script\DetectClicksAndTouches.cs" />
      <Compile Include="Assets\Script\EnemyBonusOnDestory.cs" />
+     <Compile Include="Assets\Script\EnemyFleetCauseLifeReduce.cs" />
      <Compile Include="Assets\Script\EnemySpawner.cs" />
      <Compile Include="Assets\Script\PathThroughObjcets.cs" />
      <Compile Include="Assets\Script\PlayerLifeManager.cs" />
